@@ -1,20 +1,26 @@
-html{background: url(images/b2.png);}
+html{background: url(images/b2.png);}/*checkered background*/
+
 body{ background-position:center; background-color: white; 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+/*table li horizontal & color*/
 ul { overflow: hidden;
     background-color: #767676;
     padding:0; }
   
   li {float: left;}
-  
-  li a { display: block;
+    li a { display: block;
          color: white;
         text-align: center;
         padding: 20px; }
     li a:hover { background-color: #373636; }
-    table, th, td {border: 1px solid black; box-sizing: border-box; }
-      footer {background-color: #777;
+ 
+    /*table boarder and colors */
+ table, th, td {border: 1px solid black; box-sizing: border-box; }
+      tr{text-align: center;}
+
+      /*footer color gray*/
+footer {background-color: #777;
         padding: 10px;
         text-align: center;
         color: white; }
      
-  tr{text-align: center;}
+ 
