@@ -9,24 +9,26 @@
 </head>
 <body>
    <header>
-    <section id="videosample">
-        <video  width="1300" playsinline autoplay loop muted controls>
-            <source src="media/Untitled video - Made with Clipchamp.mp4" type="video/mp4">
-            your browser does not support the video element.
-        </video>
-    </section>
+   
     <nav>
         <ul>
              <li><a href="index.html" target="_self">Home</a></li>
-             <li><a href="hoodies.html" target="_self"> Hoddies</a></li>
+             <li><a href="hoddies.html" target="_self"> Hoddies</a></li>
              <li><a href="T-shirts.html" target="_self">T-Shirts</a></li>
              <li><a href="pants.html" target="_self">Denim </a></li>
              <li><a href="Forms.html" target="_self"> Contact Us</a></li>
          </ul>
+         <!--video banner loop-->
+         <h1 id="videosample">
+            <video  width="1300" playsinline autoplay loop muted controls>
+                <source src="media/contactbanner.mp4" type="video/mp4">
+                your browser does not support the video element.
+            </video>
+        </h1>
     </nav>
    </header> 
    <main>
-    <h1> Contact Us</h1>
+    <h2> Contact Us</h2>
 <!--beginning of the form element-->
 <form action="/submit" method="post">
     
@@ -41,8 +43,9 @@
     <input type="email" id="email" name="email" placeholder="example@example.com">
 
     <br>
-        <label for="Subject">Subject:</label>
-        <input type="Subject" id="sunject" name="Subject" placeholder="Subject">
+    <!--label and text subject -->
+        <label for="text">Subject:</label>
+        <input type="text" id="text" name="text" placeholder="text">
 
     <br>
 
